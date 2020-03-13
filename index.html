@@ -5,18 +5,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>jonthesquirrel</title>
-
   <style>
+
     body {
       font-family: sans-serif;
       text-align: center;
+      margin: 0;
     }
-    ul {
-      list-style: none;
+    a {
+      color: black;
+      text-decoration-style: dashed;
+    }
+    .bio {
+      padding-bottom: 1rem;
     }
     .social {
+      background-color: #777777;
+      color: white;
       padding: 0.5rem;
     }
+    .social>a {
+      padding: 0.5rem 1rem;
+      display: inline-block;
+      color: white;
+      text-decoration-style: solid;
+    }
+
   </style>
 </head>
 <body>
@@ -24,15 +38,19 @@
   <h2>Hi, I'm jonthesquirrel</h2>
   <h3>(aka Jonathan Herman)</h3>
 
-  <p>
-    I make audio-visual performances and experiment with tech, music, and design.
-  </p>
+  <div class="bio">
+    <p>
+      I make audio-visual performances and experiment with tech, music, and design.
+    </p>
+  </div>
 
-  <a class="social" href="https://instagram.com/jonthesquirrel">Instagram</a>
-  <a class="social" href="https://www.youtube.com/channel/UC4G3PpJ9pWqmZu8zAHVypIw">YouTube</a>
-  <a class="social" href="https://www.twitch.tv/jonthesquirrel">Twitch</a>
-  <a class="social" href="https://soundcloud.com/jonthesquirrel">SoundCloud</a>
-  <a class="social" href="https://github.com/jonthesquirrel">GitHub</a>
+  <div class="social">
+    <a href="https://instagram.com/jonthesquirrel">Instagram</a>
+    <a href="https://www.youtube.com/channel/UC4G3PpJ9pWqmZu8zAHVypIw">YouTube</a>
+    <a href="https://www.twitch.tv/jonthesquirrel">Twitch</a>
+    <a href="https://soundcloud.com/jonthesquirrel">SoundCloud</a>
+    <a href="https://github.com/jonthesquirrel">GitHub</a>
+  </div>
 
 </body>
 </html>
