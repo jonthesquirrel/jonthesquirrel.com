@@ -1,1 +1,1 @@
-# jonthesquirrel.com
+# https://jonthesquirrel.github.io
